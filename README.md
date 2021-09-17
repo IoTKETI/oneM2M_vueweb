@@ -1,6 +1,5 @@
 # oneM2M_vueweb
 
-## Build Setup
 
 ## install dependencies
 cd backend
@@ -11,12 +10,15 @@ cd frondend
 
 npm install
 
-# build for production with minification
+## build for production with minification
 npm run build
 
-# build for production and view the bundle analyzer report
+## build for production and view the bundle analyzer report
 npm run build --report
 
+
+
+## oneM2M-Vue web Application start
 cd backend
 
 npm start
