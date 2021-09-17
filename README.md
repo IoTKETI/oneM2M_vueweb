@@ -11,6 +11,8 @@ cd frondend
 npm install
 
 ## build for production with minification
+cd frontend
+
 npm run build
 
 ## build for production and view the bundle analyzer report
