@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 var path = require('path');
 let server = require('http');
-
+var svr ='';
 let list='';
 /* GET home page. */
 router.get('/', function(req, res, next) {
@@ -33,7 +33,7 @@ router.get('/getdata*', function(req,res,next){
 router.post('/notion', function(req,res, next) {
   let port = 8369;
   let host = '127.0.0.1';
-  let svr=''
+  svr ='';
   if(req.body.host != ''){
     host = req.body.host
   }
